@@ -1,6 +1,4 @@
-*{
-    background-image: url(http://www.shamansbreath.com/wp-content/uploads/2016/02/5d5d79ab40f17440b11dfdf9cd0f1f08-300x188.jpg);
-}
+
 
 .mainheading{
     padding: 35px;
@@ -11,16 +9,9 @@
 }
 
 
-
-.menubar {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
- 
-}
-
-li{
-    display: inline;
+.btn{
+    background-color: grey;
+    color: white;
 }
 
 .dropdown {
@@ -56,5 +47,10 @@ li{
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+.ucc{
+    height=50px;
+    width:50px;
 }
 
