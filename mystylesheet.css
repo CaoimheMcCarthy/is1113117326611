@@ -14,9 +14,14 @@
     color: white;
 }
 
+.btn:hover{
+    color: #75bbc2;
+}
+
 .dropdown {
     position: relative;
     display: inline-block;
+    
 }
 
 
@@ -50,7 +55,10 @@
 }
 
 .ucc{
-    height=50px;
+    height:50px;
     width:50px;
 }
 
+#footer{
+    align: inline-block;
+}
