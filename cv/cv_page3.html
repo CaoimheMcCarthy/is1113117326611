@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>Work</title>
-        <link rel="stylesheet" href="mystylesheet.css" type="text/css"/>
+        <link rel="stylesheet" href="../mystylesheet.css" type="text/css"/>
         <link rel="stylesheet" href="cv_pages.css" type="text/css"/>
         
          <!--Adding bootstrap-->
@@ -11,16 +11,34 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
         
+        <style type="text/css">
+            body{
+                background: #8edde2;
+            }
+            
+            .backbtn a:hover{
+                
+            }
+            
+        </style>
+        
+        <script>
+            function BackPage() {
+            window.history.back();
+        }
+        </script>
+        
     </head>
     <body>
         <h1 class="mainheading">Work Experience</h1>
         <div id="info">
-            <h2>Part-Time Job</h2>
+            <h3 color="grey">Part-Time Job</h3>
             <p><strong>Company: </strong>Jim's Coffee House, Glengarriff</p>
             <p><strong>Job Title:</strong> Waitress</p>
             <p><strong>Year:</strong>2016-Present</p>
         </div>
-        <a href="../homepage.html">Home</a>
+        <button onclick = "BackPage()">Back</button>
+        <a href="../homepage.html" id="cvbtn">Home</a>
     </body>
     
      <footer>

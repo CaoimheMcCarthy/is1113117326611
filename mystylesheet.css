@@ -8,6 +8,9 @@
     font-weight: bold;
 }
 
+body{
+   font-family: Courier, monospace; 
+}
 
 .btn{
     background-color: grey;
