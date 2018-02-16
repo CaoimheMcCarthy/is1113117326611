@@ -23,11 +23,26 @@ session_start();
             <form method = "POST" action = "Ebus3.php">
                 
                 <label for="user_pin">
-                     PIN 
+                     PIN:
                 </label>
                 
-                <input type="password" id="user_pin" placeholder="Card Pin" maxlength="4">
+                <input type="password" id="user_pin" placeholder="Card Pin" maxlength="4" required>
+                <br/>
+                <br/>
+                <label for="user_name">
+                    Name:
+                </label>
                     
+                <input type="text" id="user_name" placeholder="Name" required>
+                <br/>
+                <br/>
+                <label for="user_email">
+                    Email:
+                </label>
+                
+                <input type="text" id="user_email" placeholder="email" required>
+                <br/>
+                <br/> 
                 <button type="Submit" id="btnPurchase" disabled> 
                     Proceed with Purchase 
                 </button>
