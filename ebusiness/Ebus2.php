@@ -58,7 +58,10 @@ session_start();
         
         <?php
         //Set session variables
-        $_SESSION["total"] = $_POST["total"]
+        $_SESSION["subtotal"] = $_POST["subotal"];
+        $_SESSION["VAT"] = $_POST["VAT"];
+        $_SESSION["discount"] = $_POST["discount"];
+        $_SESSION["total"] = $_POST["total"];
         ?>
         
     </body>

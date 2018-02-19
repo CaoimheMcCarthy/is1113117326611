@@ -1,9 +1,14 @@
+<?php
+//Start the session
+session_start();
+?>
 <!DOCTYPE html>
 <html>
     <head>
         <title>Select Product</title>
         
-         <link rel="stylesheet" href="../mystylesheet.css" type="text/css" />s
+         <link rel="stylesheet" href="../mystylesheet.css" type="text/css" />
+         <link rel="stylesheet" href="ebus_pages.css" type="text/css"/>
         
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -54,7 +59,7 @@
             
             <label for="subtotal">
                 Sub Total: 
-                <input type="text" id="subtotal" value="0.00" readonly/>
+                <input type="text" id="subtotal" name="subtotal" value="0.00" readonly/>
             </label>
             
             <br/>
@@ -63,7 +68,7 @@
             
             <label for="VAT">
                 VAT: 
-                <input type="text" id="VAT" value="0.00" readonly/>
+                <input type="text" id="VAT" name="vat" value="0.00" readonly/>
             </label>
             
             <br/>
@@ -71,7 +76,7 @@
             
             <label for="discount">
                 Discount: 
-                <input type="text" id="discount" value="0.00" readonly/>
+                <input type="text" id="discount" name="discount" value="0.00" readonly/>
             </label>
             
             <br/>

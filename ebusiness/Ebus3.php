@@ -7,16 +7,24 @@ session_start();
     <head>
         <title>Receipt</title>
         
+        <link rel="stylesheet" href="ebus_pages.css" type="text/css"/>
          <link rel="stylesheet" href="../mystylesheet.css" type="text/css" />
         
     </head>
     <body>
-        <h4>RECEIPT</h4>
-        
-        <?php
-        //Echo session variables that were set on previous page
-        echo "Total is " . $_SESSION["total"] . ".";
-        ?>
+        <div id="receipt">
+            <h4>Receipt</h4>
+         
+            <?php
+            //Echo session variables that were set on previous page
+            echo "Subtotal is " . $_SESSION["subtotal"]; ?>
+            <br/>
+           <?php echo "VAT is " . $_SESSION["VAT"]; ?>
+            <br/>
+           <?php echo "Discount is " . $_SESSION["discount"]; ?>
+            <br/>
+            <?php echo "Total is " . $_SESSION["total"] . "."; ?>
+         </div>   
     </body>
     
       <footer>
