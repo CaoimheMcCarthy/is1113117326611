@@ -1,7 +1,7 @@
 #section1{
     background-color: rgb(238,0,90);
     background-image: url(https://fthmb.tqn.com/4KJa4hAnqApyzq000LbyIVpn3s8=/3865x2576/filters:fill(auto,1)/italy--venice--elevated-view-of-canal-in-city-543346423-5982583b396e5a0011c9ef3e.jpg);
-    text-align: centre;
+    text-align: center;
     text-shadow: 2px 2px #a3b2a2;
     color: black;
     
@@ -21,3 +21,45 @@
     color: white;
 }
 
+#cvbtn{
+       background: url(https://image.freepik.com/vector-gratis/gradiente-de-textura-de-fondo-abstracto_1340-2270.jpg);
+    padding: 12px;
+    color: white;
+    position: center;
+   
+                
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #f1f1f1;
+    height: 100%; 
+    position: fixed; 
+    overflow: auto;
+    z-index: 1;
+}
+
+
+li a {
+    display: inline-block;
+    color: #000;
+    padding: 8px 4px;
+    text-decoration: none;
+}
+
+
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+footer{
+    z-index: 2;
+}
+
+#paas, #iaas, #caas, #saas {
+    margin-left: 30%;
+}

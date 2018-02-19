@@ -9,6 +9,7 @@ session_start();
         
         <title> Enter Details</title>
         
+         <link rel="stylesheet" href="../mystylesheet.css" type="text/css" />
         
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -61,7 +62,14 @@ session_start();
         ?>
         
     </body>
-    
+      <footer>
+        <a href="https://ucc.ie">
+            <img position ="static" src="https://www.cubsucc.com/images/layout/uccLogo.png"/>
+        </a>
+        <a id="cubs" href="https://www.cubsucc.com/">
+            <img position = "absolute" src="https://www.cubsucc.com/images/layout/logo.png"/>
+        </a>
+    </footer>
     
     
 </html>
