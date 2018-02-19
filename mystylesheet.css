@@ -3,13 +3,14 @@
 .mainheading{
     padding: 35px;
     text-align: center;
-    color: grey;
+    color: white;
     font-family: Courier, monospace;
     font-weight: bold;
 }
 
 body{
    font-family: Courier, monospace; 
+   background: #a6ebf4;
 }
 
 .btn{
@@ -68,4 +69,6 @@ footer{
     width: 100%;
             
 }
+
+
 

@@ -22,6 +22,9 @@ session_start();
     
     <body>
         
+        <h1 class="mainheading">IS1113 Project: 117326611</h1>
+       
+        
         <h4>Select a Product</h4>
         
         <br/>
