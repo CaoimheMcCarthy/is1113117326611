@@ -1,5 +1,5 @@
 body{
-    background: #80BBBF;
+    background: white;
     font-family: Courier, monospace;
                 
 }
@@ -15,7 +15,7 @@ body{
             
 #info{
     text-align: center;
-    color: white;
+    color: black;
 }
 
     

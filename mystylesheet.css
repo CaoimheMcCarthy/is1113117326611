@@ -1,21 +1,37 @@
 
 
 .mainheading{
-    padding: 35px;
+    padding: 25px;
     text-align: center;
     color: white;
     font-family: Courier, monospace;
     font-weight: bold;
 }
 
+.navbar{
+    background:url("https://pics.livejournal.com/nightnat/pic/0005h606");
+    position:static;
+
+}
+
+       
+#heroku, #github{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+}
+
 body{
    font-family: Courier, monospace; 
-   background: #a6ebf4;
+   background-color: white;
 }
 
 .btn{
     background-color: grey;
     color: white;
+   display: inline-block;
+   margin-bottom: 20px;
+   
 }
 
 .btn:hover{

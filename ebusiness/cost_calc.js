@@ -9,15 +9,15 @@ function calcSub(){
     }
     
     else if(document.getElementById('gmail').checked){
-        argSubTotal = 400
+        argSubTotal = 400;
     }
     
     else if(document.getElementById('cloud9').checked){
-        argSubTotal = 200
+        argSubTotal = 200;
     }
     
     else{
-        argSubTotal = 300
+        argSubTotal = 300;
     }
 
     display(argSubTotal);
@@ -26,18 +26,18 @@ function calcSub(){
    
    function calcDisVatTotal(parmSubTotal){
        
-       var SubTotal
-       var discountAmt
-       var vatAmt
-       var totalAmt
+       var SubTotal;
+       var discountAmt;
+       var vatAmt;
+       var totalAmt;
        
-       SubTotal = parmSubTotal
+       SubTotal = parmSubTotal;
        
-       vatAmt = parmSubTotal * 0.23
+       vatAmt = parmSubTotal * 0.23;
        
        discountAmt = (SubTotal + vatAmt) * 0.1;
        
-       totalAmt = (SubTotal + vatAmt) - discountAmt
+       totalAmt = (SubTotal + vatAmt) - discountAmt;
        
        display(SubTotal, discountAmt, vatAmt, totalAmt);
    }
@@ -48,7 +48,7 @@ function calcSub(){
         
         document.getElementById("subtotal").value = parm1;
         document.getElementById("discount").value = parm2;
-        document.getElementById("VAT").value = parm3
+        document.getElementById("VAT").value = parm3;
         document.getElementById("total").value = parm4;
         
         enablebtnProceed();
