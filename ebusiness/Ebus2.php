@@ -17,6 +17,46 @@ session_start();
     
     <body>
         
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    
+    <script type="text/javascript">
+    function googleTranslateElementInit() {
+    new google.translate.TranslateElement({pageLanguage: 'en'}, 'translate');
+    }
+    </script>
+        
+         <div class="navbar"> 
+        <h1 class="mainheading">IS1113 Project: 117326611</h1>
+        <br/>
+        <br/>
+          <div class="dropdown">
+        <a href="cv/cv_page1.html" class="btn">Curriculum Vitae</a>
+        <br/>
+          <div class="dropdown-content">
+            <a href="cv_page1.html">Personal Details</a>
+            <a href="cv_page2.html">Education</a>
+            <a href="cv_page3.html">Work</a>
+         </div>
+   </div>  
+      	
+        	
+    <div class="dropdown">
+        <a href="interests/sports.html" class="btn">Interests</a>
+        <br/>
+         <div class="dropdown-content">
+            <a href="interests/sports.html.html">Sports</a>
+            <a href="interests/music.html">Music</a>
+            <a href="interests/travel.html">Travel</a>
+            <a href="interests/cloudservices.html">Cloud Services</a>
+        </div>
+    </div>    
+        	 
+      	   
+        	    
+    <a href="ebusiness/Ebus1.php" class="btn">E-Business</a>
+       </div>
+        
+        <div id="translate">
         <h4>Please enter your payment details.</h4>
         
             <br />
@@ -63,7 +103,7 @@ session_start();
         $_SESSION["discount"] = $_POST["discount"];
         $_SESSION["total"] = $_POST["total"];
         ?>
-        
+    </div>    
     </body>
       <footer>
         <a href="https://ucc.ie">

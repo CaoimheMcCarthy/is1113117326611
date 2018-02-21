@@ -22,7 +22,14 @@ session_start();
     
     <body>
         
-    <div class="lol">
+     <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    
+    <script type="text/javascript">
+    function googleTranslateElementInit() {
+    new google.translate.TranslateElement({pageLanguage: 'en'}, 'translate');
+    }
+    </script>
+     <div class="navbar">
         <h1 class="mainheading">IS1113 Project: 117326611</h1>
        
     
@@ -47,13 +54,16 @@ session_start();
             <a href="interests/cloudservices.html">Cloud Services</a>
         </div>
     </div> 
-    </div>   
-        
+     <a href="ebusiness/Ebus1.php" class="btn">E-Business</a>
+    </div> 
+        <div id="translate"> 
         <h4>Select a Product</h4>
         
         <br/>
         
         <form method ="POST" action ="Ebus2.php">
+            
+                
             
             <label for="salesforce">
                 <input type ="radio" id="salesforce" name="product" checked onClick="disablebtnProceed()"/>
@@ -121,10 +131,11 @@ session_start();
             
         </form>
         
+        
         <br/>
         <button onClick="calcSub()">Calculate Cost</button>
         <a role="button" href="Ebus1.php">Clear Choice</a>
-       
+       </div>
         
     </body>
     
