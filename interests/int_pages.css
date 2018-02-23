@@ -1,6 +1,5 @@
 #section1{
     background-color: rgb(238,0,90);
-    background-image: url(https://fthmb.tqn.com/4KJa4hAnqApyzq000LbyIVpn3s8=/3865x2576/filters:fill(auto,1)/italy--venice--elevated-view-of-canal-in-city-543346423-5982583b396e5a0011c9ef3e.jpg);
     text-align: center;
     color: white;
     
@@ -59,6 +58,3 @@ footer{
     z-index: 2;
 }
 
-#paas, #iaas, #caas, #saas {
-    margin-left: 30%;
-}
