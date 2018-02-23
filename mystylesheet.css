@@ -10,21 +10,28 @@
 
 .navbar{
     background:url("https://pics.livejournal.com/nightnat/pic/0005h606");
-    position: fixed;
+    width: 100%;
+    position: static;
+    text-align: center
 
 }
 
        
-#heroku, #github{
-    height: 100px;
-    width: 100px;
-    display: inline-block;
+#github, #heroku{
+    height: 200px;
+    width: 200px;
     padding: 10px;
+
+}
+
+#githeroku{
+    display: inline-block;
+    margin: auto;
 }
 
 body{
    font-family: Courier, monospace; 
-   background-color: #c7dbdd;
+  
    margin: 5px;
 
 }
@@ -33,11 +40,19 @@ body{
     margin-bottom: 10px;
 }
 
+#navbtns{
+    width: 50%;
+    display: inline-block;
+    margin: auto;
+    
+}
+
 .btn{
     background-color: grey;
     color: white;
    display: inline-block;
    margin-bottom: 20px;
+   position: relative;
    
 }
 
@@ -75,7 +90,8 @@ body{
 
 .dropdown-content a:hover 
 {
-    background-color: #f1f1f1
+    background-color: grey;
+    color:  #A0EEF2;
     
 }
 
@@ -86,12 +102,11 @@ body{
 
 footer{
     background-color: grey;
-     position: fixed;
+    position: fixed;
     left: 0px;
     bottom: 0px;
     width: 100%;
             
 }
-
 
 

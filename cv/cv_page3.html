@@ -5,19 +5,25 @@
         <link rel="stylesheet" href="../mystylesheet.css" type="text/css"/>
         <link rel="stylesheet" href="cv_pages.css" type="text/css"/>
         
-         <!--Adding bootstrap-->
-         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+         
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-   
+      <style type="text/css">
+              .btn{
+                 background-color: grey;
+                color: white;
+               display: inline-block;
+               padding: 10px;
+               border-radius: 6px;
+          }
+        </style>
         
     </head>
     <body>
         
     <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-    
     <script type="text/javascript">
     function googleTranslateElementInit() {
     new google.translate.TranslateElement({pageLanguage: 'en'}, 'translate');
@@ -52,19 +58,42 @@
         	 
       	   
         	    
-    <a href="ebusiness/Ebus1.php" class="btn">E-Business</a>
+    <a href="ebusiness/ebushomepage.html" class="btn">E-Business</a>
        </div>
        
         
-        <h1 class="mainheading">Work Experience</h1>
+        <h2 align="center"><strong>Work</strong></h2>
         <div id="translate">
         <div id="info">
             <h3 color="grey">Part-Time Job</h3>
             <p><strong>Company: </strong>Jim's Coffee House, Glengarriff</p>
             <p><strong>Job Title:</strong> Waitress</p>
             <p><strong>Year:</strong>2016-Present</p>
+            <p>My duties as a waitress include serving customers</p>
+            
+            <br/>
+            
+            <h3 color="grey">Work Experience</h3>
+            <p>In transition year I did a week's work experience in the Marketing and Finance
+            departments in <a href="http://www.rowa.ie/">Rowa Pharmaceuticals</a>, Bantry. I gained valuable insight
+            into</p>
+            
         </div>
         </div>
+        
+        <div id="map" style="width:400px;height:400px" align="center">
+            <script type="text/javascript">
+                function myMap() {
+    var mapOptions = {
+        center: new google.maps.LatLng(51.5, -0.12),
+        zoom: 10,
+        mapTypeId: google.maps.MapTypeId.HYBRID
+    }
+    var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+    }
+            </script>
+            <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+        
         <button onclick = "BackPage()">Back</button>
         <a href="../homepage.html" id="cvbtn">Home</a>
     </body>

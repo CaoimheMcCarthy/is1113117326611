@@ -12,16 +12,37 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
     
-   
+       <script type="text/javascript">
+          
+          function welcome(){
+              var time;
+              
+              time = getHours();
+              
+              if time < 2000{
+              document.getElementById("welcome").value = "Welcome";}
+              else{
+              document.getElementById("welcome").value = "Good Evening";}
+          }
+          
+       </script>
     
 
     </head>
     <body>
+        
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script type="text/javascript">
+    function googleTranslateElementInit() {
+    new google.translate.TranslateElement({pageLanguage: 'en'}, 'translate');
+    }
+    </script>
+    <div id="translate">
        <div class="navbar">
         <h1 class="mainheading">IS1113 Project: 117326611</h1>
        
-    
-    
+    <br/>
+    <div id="navbtns">
     <div class="dropdown">
         <a href="cv/cv_page1.html" class="btn">Curriculum Vitae</a>
         <br/>
@@ -46,11 +67,19 @@
         	 
       	   
         	    
-    <a href="ebusiness/Ebus1.php" class="btn">E-Business</a>
+    <a href="ebusiness/ebushomepage.html" class="btn">E-Business</a>
     <br/>
     </div>
- 
-   
+    </div>
+
+     <h3 id="welcome"></h3>
+     
+<script>
+var d = new Date();
+document.getElementById("welcome").innerHTML = d;
+</script>
+
+   <div id="githeroku"
     <a href="https://is1113117326611.herokuapp.com/">
         <img id="heroku" src="https://i.vimeocdn.com/portrait/11404857_640x640"/>
     </a>
@@ -58,9 +87,9 @@
     <a href="https://github.com/CaoimheMcCarthy/is1113117326611/graphs/commit-activity">
         <img id="github" src="https://pbs.twimg.com/profile_images/616309728688238592/pBeeJQDQ_400x400.png"/>
         </a>
-    
-    </body>
-    
+       </div> 
+    </div>
+</body>
     <footer>
         <a href="https://ucc.ie">
             <img position ="static" src="https://www.cubsucc.com/images/layout/uccLogo.png"/>
@@ -68,6 +97,7 @@
         <a id="cubs" href="https://www.cubsucc.com/">
             <img position = "absolute" src="https://www.cubsucc.com/images/layout/logo.png"/>
         </a>
+        
     </footer>
     
 </html>

@@ -29,9 +29,9 @@ session_start();
         <a href="cv/cv_page1.html" class="btn">Curriculum Vitae</a>
         <br/>
           <div class="dropdown-content">
-            <a href="cv_page1.html">Personal Details</a>
-            <a href="cv_page2.html">Education</a>
-            <a href="cv_page3.html">Work</a>
+            <a href="cv/cv_page1.html">Personal Details</a>
+            <a href="cv/cv_page2.html">Education</a>
+            <a href="cv/cv_page3.html">Work</a>
          </div>
    </div>  
       	
@@ -49,7 +49,7 @@ session_start();
         	 
       	   
         	    
-    <a href="ebusiness/Ebus1.php" class="btn">E-Business</a>
+    <a href="ebusiness/ebushomepage.html" class="btn">E-Business</a>
        </div>
         
         <div id="translate">

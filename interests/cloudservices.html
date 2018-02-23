@@ -5,42 +5,86 @@
      <link rel="stylesheet" href="../mystylesheet.css" type="text/css"/>
      <link rel="stylesheet" hred="int_pages.css" type="text/css"/> 
         
+    <meta charset="utf-8"/>
+
+        
+        
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+        
+    <!--pagepiling-->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.4/jquery.pagepiling.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.4/jquery.pagepiling.js"></script>
+        
+    <script type = "text/javascript">
+        $(document).ready(function() {
+            $('#pagepiling').pagepiling({
+              });
+        });
+    </script>
+        
+        <style type="text/css">
+              .btn{
+                 background-color: grey;
+                color: white;
+               display: inline-block;
+               padding: 10px;
+               border-radius: 6px;
+          }
+        </style>
+        
     </head> 
     <body>
-        <h1 class="mainheading">Cloud Services</h1>
         
-        <div id="navbar">
-            <a href="#saas">Software as a Service</a>
-            <a href="#paas">Platform as a Service</a>
-            <a href="#iaas">Infrastructure as a Service</a>   
-            <a href="#caas">Communication as a Service</a>
-        </div>
-        
-        <div id="saas">
-            <h2>Software as a Service</h2>
-            <p></p>
-        </div>
-        
+        <div class="navbar">
+        <h1 class="mainheading">IS1113 Project: 117326611</h1>
+       
+    
+    
+    <div class="dropdown">
+        <a href="cv/cv_page1.html" class="btn">Curriculum Vitae</a>
         <br/>
-        
-        <div id="paas">
-            <h2>Platform as a Service</h2>
-            <p></p>
-        </div>
-        
+          <div class="dropdown-content">
+            <a href="cv/cv_page1.html">Personal Details</a>
+            <a href="cv/cv_page2.html">Education</a>
+            <a href="cv/cv_page3.html">Work</a>
+         </div>
+   </div>  
+      	
+        	
+    <div class="dropdown">
+        <a href="interests/sports.html" class="btn">Interests</a>
         <br/>
-        
-        <div id="iaas">
-            <h2>Infrastructure as a Service</h2>
-            <p></p>
+         <div class="dropdown-content">
+            <a href="interests/sports.html.html">Sports</a>
+            <a href="interests/music.html">Music</a>
+            <a href="interests/travel.html">Travel</a>
+            <a href="interests/cloudservices.html">Cloud Services</a>
         </div>
+    </div>    
+        	 
+      	   
+        	    
+    <a href="ebusiness/ebushomepage.html" class="btn">E-Business</a>
+    <br/>
+    </div>
         
-        <br/>
+         <div id="pagepiling">
+            <div class="section" id="section1">
+                <h2 align="center">Cloud Services</h2>
+                <p>The term 'cloud services' encapsulates a broad range of web-based technologies</p>
+            </div>
+        	<div class="section" id="section2"></div>
+        	<div class="section" id="section3">
+ 
+        	    <br/>
+        	    <br/>
+        	    <a href="../homepage.html" class="btn btn-success">Home</a>
+        	</div>
+        </div> 
         
-        <div id="caas">
-            <h2>Communication as a Service</h2>
-            <p></p>
-        </div>
         
         
     </body>
