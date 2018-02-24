@@ -30,30 +30,30 @@ session_start();
         <br/>
         <br/>
           <div class="dropdown">
-        <a href="cv/cv_page1.html" class="btn">Curriculum Vitae</a>
+        <a href="../cv/cv_page1.html" class="btn">Curriculum Vitae</a>
         <br/>
           <div class="dropdown-content">
-            <a href="cv/cv_page1.html">Personal Details</a>
-            <a href="cv/cv_page2.html">Education</a>
-            <a href="cv/cv_page3.html">Work</a>
+            <a href="../cv/cv_page1.html">Personal Details</a>
+            <a href="../cv/cv_page2.html">Education</a>
+            <a href="../cv/cv_page3.html">Work</a>
          </div>
    </div>  
       	
         	
     <div class="dropdown">
-        <a href="interests/sports.html" class="btn">Interests</a>
+        <a href="../interests/sports.html" class="btn">Interests</a>
         <br/>
          <div class="dropdown-content">
-            <a href="interests/sports.html.html">Sports</a>
-            <a href="interests/music.html">Music</a>
-            <a href="interests/travel.html">Travel</a>
-            <a href="interests/cloudservices.html">Cloud Services</a>
+            <a href="../interests/sports.html.html">Sports</a>
+            <a href="../interests/music.html">Music</a>
+            <a href="../interests/travel.html">Travel</a>
+            <a href="../interests/cloudservices.html">Cloud Services</a>
         </div>
     </div>    
         	 
       	   
         	    
-    <a href="ebusiness/ebushomepage.html" class="btn">E-Business</a>
+    <a href="ebushomepage.html" class="btn">E-Business</a>
        </div>
         
         <div id="translate">
