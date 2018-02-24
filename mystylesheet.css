@@ -1,7 +1,7 @@
 
 
 .mainheading{
-    padding: 25px;
+    padding: 2px;
     text-align: center;
     color: white;
     font-family: Courier, monospace;
@@ -11,8 +11,9 @@
 .navbar{
     background:url("https://pics.livejournal.com/nightnat/pic/0005h606");
     width: 100%;
-    position: fixed;
+    position: relative;
     text-align: center;
+    
 }
 
        
@@ -141,6 +142,3 @@ footer{
   padding: 16px 32px;
 }
 
-header{
-    position: fixed;
-}
