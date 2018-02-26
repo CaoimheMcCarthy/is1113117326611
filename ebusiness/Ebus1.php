@@ -137,10 +137,10 @@ session_start();
     
     <footer>
         <a href="https://ucc.ie">
-            <img position ="static" src="https://www.cubsucc.com/images/layout/uccLogo.png"/>
+            <img src="uccLogo.png"/>
         </a>
         <a href="https://www.cubsucc.com/">
-            <img position = "absolute" src="https://www.cubsucc.com/images/layout/logo.png"/>
+            <img src="cubsLogo.png"/>
         </a>
     </footer>
     

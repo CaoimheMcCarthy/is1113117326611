@@ -98,8 +98,8 @@ session_start();
         
         <?php
         //Set session variables
-        $_SESSION["subtotal"] = $_POST["subotal"];
-        $_SESSION["VAT"] = $_POST["VAT"];
+        $_SESSION["subtotal"] = $_POST["subtotal"];
+        $_SESSION["VAT"] = $_POST["vat"];
         $_SESSION["discount"] = $_POST["discount"];
         $_SESSION["total"] = $_POST["total"];
         ?>
@@ -107,10 +107,10 @@ session_start();
     </body>
       <footer>
         <a href="https://ucc.ie">
-            <img position ="static" src="https://www.cubsucc.com/images/layout/uccLogo.png"/>
+            <img src="uccLogo.png"/>
         </a>
         <a id="cubs" href="https://www.cubsucc.com/">
-            <img position = "absolute" src="https://www.cubsucc.com/images/layout/logo.png"/>
+            <img src="cubsLogo.png"/>
         </a>
     </footer>
     

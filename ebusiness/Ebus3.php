@@ -60,7 +60,7 @@ session_start();
             //Echo session variables that were set on previous page
             echo "Subtotal is " . $_SESSION["subtotal"]; ?>
             <br/>
-           <?php echo "VAT is " . $_SESSION["VAT"]; ?>
+           <?php echo "VAT is " . $_SESSION["vat"]; ?>
             <br/>
            <?php echo "Discount is " . $_SESSION["discount"]; ?>
             <br/>
@@ -71,10 +71,10 @@ session_start();
     
       <footer>
         <a href="https://ucc.ie">
-            <img position ="static" src="https://www.cubsucc.com/images/layout/uccLogo.png"/>
+            <img src="uccLogo.png"/>
         </a>
         <a id="cubs" href="https://www.cubsucc.com/">
-            <img position = "absolute" src="https://www.cubsucc.com/images/layout/logo.png"/>
+            <img src="cubsLogo.png"/>
         </a>
     </footer>
     
