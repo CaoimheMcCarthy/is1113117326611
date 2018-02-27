@@ -1,7 +1,7 @@
 
 
 .mainheading{
-    padding: 2px;
+    padding-top: 10px;
     text-align: center;
     color: white;
     font-family: Courier, monospace;
@@ -13,6 +13,7 @@
     width: 100%;
     position: relative;
     text-align: center;
+    margin: 0px;
     
 }
 
@@ -32,19 +33,15 @@
 
 
 
-#navbtns{
-    width: 50%;
-    display: inline-block;
-    margin: auto;
-    
-}
-
 .btn{
     background-color: grey;
     color: white;
    display: inline-block;
    margin-bottom: 20px;
    position: relative;
+   border-radius: 6px;
+   padding: 10px;
+   padding-right: 20px;
    
 }
 
@@ -90,6 +87,10 @@
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
 }
 
 footer{

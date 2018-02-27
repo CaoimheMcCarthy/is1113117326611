@@ -6,28 +6,36 @@
         <link rel="stylesheet" href="mystylesheet.css" type="text/css" />
         <link rel="stylesheet" href="../int_pages.css" type="text/css" />
         
-        <!--Adding Bootstrap-->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+        
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
     
-       <script type="text/javascript">
-          
-          function welcome(){
-              var time;
-              
-              time = getHours();
-              
-              if time < 2000{
-              document.getElementById("welcome").value = "Welcome";}
-              else{
-              document.getElementById("welcome").value = "Good Evening";}
-          }
-          
-       </script>
-    
-
+       <style>
+           .btn{
+               padding: 10px;
+               padding-right: 20px;
+               padding-left: 20px;
+               font-family: "Roboto", sans-serif;
+               margin-right: 10px;
+           }
+           
+           body{
+               font-family: "Roboto", sans-serif;
+           }
+           
+           .mainheading{
+                padding-top: 40px;
+               text-size: 60px;
+           }
+           
+           .navbar{
+               margin: 0;
+               padding: 0;
+           }
+           
+       </style>
+   
     </head>
     <body>
         
@@ -41,6 +49,7 @@
        <div class="navbar">
         <h1 class="mainheading">IS1113 Project: 117326611</h1>
        
+    <br/>
     <br/>
     <div id="navbtns">
     <div class="dropdown">
