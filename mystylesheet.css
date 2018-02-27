@@ -1,19 +1,20 @@
 
 
 .mainheading{
-    padding-top: 10px;
     text-align: center;
     color: white;
     font-family: Courier, monospace;
     font-weight: bold;
+    font-size: 50px;
 }
 
 .navbar{
     background:url("https://pics.livejournal.com/nightnat/pic/0005h606");
     width: 100%;
-    position: relative;
+    position: absolute;
     text-align: center;
-    margin: 0px;
+    margin: 0;
+    padding: 0;
     
 }
 
@@ -22,12 +23,7 @@
     height: 200px;
     width: 200px;
     padding: 10px;
-
-}
-
-#githeroku{
-    display: inline-block;
-    margin: auto;
+    margin-left: 50%;
 }
 
 
@@ -42,7 +38,8 @@
    border-radius: 6px;
    padding: 10px;
    padding-right: 20px;
-   
+   padding-left: 20px;
+   padding-bottom: 10px;
 }
 
 .btn:hover{
@@ -79,8 +76,8 @@
 
 .dropdown-content a:hover 
 {
-    background-color: grey;
-    color:  #A0EEF2;
+    background-color: #009688;
+    color:  white;
     
 }
 
@@ -93,12 +90,22 @@ body{
     font-family: "Roboto", sans-serif;
 }
 
+.pagecontent{
+    padding-top: 200px;
+}
+
 footer{
     background-color: grey;
     position: fixed;
     left: 0px;
     bottom: 0px;
     width: 100%;
+    display: inline;
+}
+
+footer p{
+    text-align: center;
+    color: white;
 }
 
 .container {
@@ -115,7 +122,9 @@ footer{
   height: auto;
   position: relative;
   top: 50%;
-  left: 37%;
+  padding: 10px;
+  margin-left: 80%;
+
 }
 
 .middle {
@@ -123,7 +132,7 @@ footer{
   opacity: 0;
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 100%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%)
 }
@@ -137,7 +146,7 @@ footer{
 }
 
 .text {
-  background-color: #4CAF50;
+  background-color: #009688;
   color: white;
   font-size: 16px;
   padding: 16px 32px;

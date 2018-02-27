@@ -10,6 +10,12 @@ session_start();
         <link rel="stylesheet" href="ebus_pages.css" type="text/css"/>
          <link rel="stylesheet" href="../mystylesheet.css" type="text/css" />
         
+        <style>
+            .pagecontent{
+                padding-top: 160px;
+            }
+        </style>
+        
     </head>
     <body>
         
@@ -51,7 +57,7 @@ session_start();
         	    
     <a href="ebushomepage.html" class="btn">E-Business</a>
        </div>
-        
+        <div class="pagecontent">
         <div id="translate">
         <div id="receipt">
             <h4>Receipt</h4>
@@ -60,12 +66,13 @@ session_start();
             //Echo session variables that were set on previous page
             echo "Subtotal is " . $_SESSION["subtotal"]; ?>
             <br/>
-           <?php echo "VAT is " . $_SESSION["vat"]; ?>
+           <?php echo "VAT is " . $_SESSION["VAT"]; ?>
             <br/>
            <?php echo "Discount is " . $_SESSION["discount"]; ?>
             <br/>
             <?php echo "Total is " . $_SESSION["total"] . "."; ?>
          </div> 
+         </div>
          </div>
     </body>
     

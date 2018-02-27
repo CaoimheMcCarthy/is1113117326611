@@ -14,6 +14,13 @@ session_start();
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type="text/javascript" src="cost_calc.js"></script>
   
+<style>
+    .pagecontent{
+        padding-top: 200px;
+        text-align: center;
+    }
+</style>  
+  
     </head>
     
     <body>
@@ -52,10 +59,10 @@ session_start();
     </div> 
      <a href="ebushomepage.html" class="btn">E-Business</a>
     </div> 
+    <div class="pagecontent">
         <div id="translate"> 
         <h4>Select a Product</h4>
-        
-        <br/>
+ 
         
         <form method ="POST" action ="Ebus2.php">
             
@@ -101,7 +108,7 @@ session_start();
             
             <label for="VAT">
                 VAT: 
-                <input type="text" id="VAT" name="vat" value="0.00" readonly/>
+                <input type="text" id="VAT" name="VAT" value="0.00" readonly/>
             </label>
             
             <br/>
@@ -132,7 +139,7 @@ session_start();
         <button onClick="calcSub()">Calculate Cost</button>
         <a role="button" href="Ebus1.php">Clear Choice</a>
        </div>
-        
+      </div>  
     </body>
     
     <footer>

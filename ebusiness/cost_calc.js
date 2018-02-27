@@ -33,9 +33,9 @@ function calcSub(){
        
        SubTotal = parmSubTotal;
        
-       vatAmt = parmSubTotal * 0.23;
+       vatAmt = parmSubTotal * 0.1;
        
-       discountAmt = (SubTotal + vatAmt) * 0.1;
+       discountAmt = (SubTotal + vatAmt) * 0.05;
        
        totalAmt = (SubTotal + vatAmt) - discountAmt;
        
@@ -46,9 +46,9 @@ function calcSub(){
   
     function display(parm1, parm2, parm3, parm4){
         
-        document.getElementById("subtotal").value = parm1;
+        document.getElementById("subtotal").value =  parm1;
         document.getElementById("discount").value = parm2;
-        document.getElementById("VAT").value = parm3;
+        document.getElementById("VAT").value =  parm3;
         document.getElementById("total").value = parm4;
         
         enablebtnProceed();

@@ -6,7 +6,27 @@
         <link rel="stylesheet" href="../mystylesheet.css" type="text/css"/>
         <link rel="stylesheet" href="ebus_pages.css" type="text/css"/>
         
+       <style>
+        .pagecontent {
+          padding: 210px;
+          background-color:  rgb(238,0,90);
+          color: white;
+        }
         
+        ul{
+            list-style-type: none;
+            background-color: white;
+            width: 65%;
+            margin-left: 15%;
+        }
+        
+        li{
+            display: inline;
+            padding: 10px;
+            
+        }
+
+ </style>       
     </head>
     <body>
     
@@ -19,9 +39,11 @@
     </script>
     
     <div class="navbar"> 
+    <div id="myHeader">
         <h1 class="mainheading">IS1113 Project: 117326611</h1>
         <br/>
         <br/>
+        
           <div class="dropdown">
         <a href="../cv/cv_page1.html" class="btn">Curriculum Vitae</a>
         <br/>
@@ -48,21 +70,23 @@
         	    
     <a href="Ebus1.php" class="btn">E-Business</a>
     </div>
-    
+    </div>
+    <div class="pagecontent">
     <div id="translate">
         
         <p>Cloud services is a broad category that 
         encompasses a myriad of IT resources that are provided over the internet. Our offerings include: </p>
         
         <div id="cloudoptions">
-            <a href="#saas">Software as a Service</a>
-            <a href="#paas">Platform as a Service</a>
-            <a href="#iaas">Infrastructure as a Service</a>   
-            <a href="#caas">Communication as a Service</a>
+        <ul>
+            <li><a href="#saas">Software as a Service</a></li>
+            <li><a href="#paas">Platform as a Service</a></li>
+            <li><a href="#iaas">Infrastructure as a Service</a></li>  
+            <li><a href="#caas">Communication as a Service</a></li>
         </div>
-        
+        </ul>
       
-        <div id="saas">
+        <div id="saas" style="background-color:grey;width:100%">
             <h2>Software as a Service</h2>
             <p>Software as a Service (SaaS) is a software distribution model in which applications are hosted by a vendor  
             and made available to customers over a network, usually the internet as we are using. 
@@ -75,7 +99,7 @@
         
         <br/>
         
-        <div id="paas">
+        <div id="paas" style="background-color:grey;width:100%">
             <h2>Platform as a Service</h2>
             <p>Platform as a service (PaaS) is a cloud computing model in which we as the third-party provider deliver hardware and software tools
             for application development to users by means of the internet. As a PaaS provider we host the hardware and 
@@ -95,7 +119,7 @@
         
         <br/>
         
-        <div id="iaas">
+        <div id="iaas" style="background-color:grey;width:100%">
             <h2>Infrastructure as a Service</h2>
             <p>Infrastructure as a Service (IaaS) involves the provision of virtualised computing resources over the internet. We, as the cloud provider, fill the position of the traditional
             on-site data centre, providing servers, storage and networking hardware. The use of IaaS brings great cost benefits for a business as it eliminates the burden of buying,
@@ -106,7 +130,7 @@
         
         <br/>
         
-        <div id="caas">
+        <div id="caas" style="background-color:grey;width:100%">
             <h2>Communication as a Service</h2>
             <p>Communication as a Service (CaaS) is a means of outsourcing enterprise communications, that can be leased in it's entirety from us as the vendor.
             Our CaaS includes resources such as Voice over IP, Instant Messaging, and video-conferencing applications.
@@ -118,6 +142,8 @@
         </div>
         
     </div>
+    </div>
+    
     </body>
     
     <footer>

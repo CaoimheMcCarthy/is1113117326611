@@ -13,6 +13,15 @@ session_start();
         
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   
+       <style>
+           
+           .pagecontent{
+               padding-top: 120px;
+           }
+           
+       </style>
+   
     </head>
     
     <body>
@@ -55,7 +64,7 @@ session_start();
         	    
     <a href="ebushomepage.html" class="btn">E-Business</a>
        </div>
-        
+        <div class="pagecontent">
         <div id="translate">
         <h4>Please enter your payment details.</h4>
         
@@ -99,11 +108,12 @@ session_start();
         <?php
         //Set session variables
         $_SESSION["subtotal"] = $_POST["subtotal"];
-        $_SESSION["VAT"] = $_POST["vat"];
+        $_SESSION["VAT"] = $_POST["VAT"];
         $_SESSION["discount"] = $_POST["discount"];
         $_SESSION["total"] = $_POST["total"];
         ?>
-    </div>    
+    </div>
+    </div>
     </body>
       <footer>
         <a href="https://ucc.ie">
