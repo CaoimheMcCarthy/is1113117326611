@@ -14,15 +14,19 @@
         }
         
         ul{
-            list-style-type: none;
+           text-align: center;
             background-color: white;
-            width: 65%;
-            margin-left: 15%;
+            width: 40%;
+           margin: auto;
         }
         
         li{
+            padding: 5px;
+        }
+        
+        #f1, #f2, #f3{
             display: inline;
-            padding: 10px;
+            padding: 0 0 190px 190px;
             
         }
 
@@ -94,7 +98,7 @@
             SaaS operates as a subscription service, to which customers can pay a periodical fee while they require the service,
             and simply cancel it when the software becomes redundant to them.</p>
             <p><strong>An example of Software as a Service is <a href="https://www.salesforce.com/eu/?ir=1">Salesforce</a></strong></p>
-            <a role="button" href="Ebus1.php">Purchase Salesforce</a>
+            <a role="button" class="btn" href="Ebus1.php">Purchase Salesforce</a>
         </div>
         
         <br/>
@@ -114,7 +118,7 @@
             itself is also code that runs once the deploy command has been enabled and stops once the application is up and fully functional.</p>
             <h4>User Interface: </h4><p></p>
             <p><strong>An example of a Platform as a Service is <a href="https://c9.io/login">Cloud 9</a></strong></p>
-            <button href="Ebus1.php">Purchase Cloud 9</button>
+            <a role="button" class="btn" href="Ebus1.php">Purchase Cloud 9</a>
         </div>
         
         <br/>
@@ -125,7 +129,7 @@
             on-site data centre, providing servers, storage and networking hardware. The use of IaaS brings great cost benefits for a business as it eliminates the burden of buying,
             managing and supporting the infrastructure themselves.</p>
             <p><strong>An example of Infrastructure as a Service is <a href="https://aws.amazon.com/">Amazon Web Services</a></strong></p>
-            <button href="Ebus1.php">Purchase Amazon Web Services</button>
+            <a role="button" class="btn"href="Ebus1.php">Purchase Amazon Web Services</a>
         </div>
         
         <br/>
@@ -138,7 +142,7 @@
             modes or coverage on demand. The network capacity and feature set can be changed from day to day if necessary so that functionality keeps pace with
             demand and resources are not wasted. There is no risk of the system becoming obsolete and requiring periodic major upgrades or replacement.</p>
             <p><strong>An example of Communication as a Service is <a href="https://www.google.com/gmail/">Gmail</a></strong></p>
-            <button href="Ebus1.php">Purchase Gmail</button>
+            <a role="button" class="btn" href="Ebus1.php">Purchase Gmail</a>
         </div>
         
     </div>
@@ -147,12 +151,18 @@
     </body>
     
     <footer>
-        <a href="https://ucc.ie">
+      
+        <a id="f1" href="https://ucc.ie">
             <img src="uccLogo.png"/>
         </a>
-        <a href="https://www.cubsucc.com/">
+        
+         <p id="f2">Copyright &copy; Caoimhe McCarthy, 2018</p>
+        
+        <a id="f3" href="https://www.cubsucc.com/">
             <img src="cubsLogo.png"/>
         </a>
+      
+        
     </footer>
     
 </html>

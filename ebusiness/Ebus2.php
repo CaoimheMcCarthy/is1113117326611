@@ -17,7 +17,8 @@ session_start();
        <style>
            
            .pagecontent{
-               padding-top: 120px;
+               padding-top: 200px;
+               text-align: center;
            }
            
        </style>
@@ -68,15 +69,13 @@ session_start();
         <div id="translate">
         <h4>Please enter your payment details.</h4>
         
-            <br />
-            
             <form method = "POST" action = "Ebus3.php">
                 
                 <label for="user_pin">
                      PIN:
                 </label>
                 
-                <input type="password" id="user_pin" placeholder="Card Pin" maxlength="4" required>
+                <input type="password" id="user_pin" placeholder="Four digit PIN" maxlength="4" required>
                 <br/>
                 <br/>
                 <label for="user_name">
@@ -90,7 +89,7 @@ session_start();
                     Email:
                 </label>
                 
-                <input type="text" id="user_email" placeholder="email" required>
+                <input type="text" id="user_email" placeholder="example@example.com" required>
                 <br/>
                 <br/> 
                 <button type="Submit" id="btnPurchase" disabled> 
