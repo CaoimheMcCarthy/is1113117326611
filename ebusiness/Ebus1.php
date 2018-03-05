@@ -161,11 +161,12 @@ session_start();
       
     </body>
     
-    <footer>
-        <a href="https://ucc.ie">
+    <footer align="center">
+        <a id="f1" href="https://ucc.ie">
             <img src="uccLogo.png"/>
         </a>
-        <a href="https://www.cubsucc.com/">
+        <p id="f2">Copyright &copy; Caoimhe McCarthy, 2018</p>
+        <a id="f3" href="https://www.cubsucc.com/">
             <img src="cubsLogo.png"/>
         </a>
     </footer>

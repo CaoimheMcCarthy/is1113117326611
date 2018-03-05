@@ -9,7 +9,7 @@
 }
 
 .navbar{
-    background:url("https://pics.livejournal.com/nightnat/pic/0005h606");
+    background:url("background.gif");
     width: 100%;
     position: absolute;
     text-align: center;
@@ -33,7 +33,7 @@
     background-color: grey;
     color: white;
    display: inline-block;
-  
+   margin-bottom: 20px;
    position: relative;
    border-radius: 6px;
    padding: 10px;
@@ -101,10 +101,11 @@ footer{
     bottom: 0px;
     width: 100%;
     display: block;
+
 }
 
 footer p{
-    text-align: center;
+    
     color: white;
 }
 

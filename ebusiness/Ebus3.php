@@ -15,7 +15,7 @@ session_start();
         
         <style>
             .pagecontent{
-                padding-top: 160px;
+                padding-top: 220px;
             }
         </style>
         
@@ -67,23 +67,37 @@ session_start();
          
             <?php
             //Echo session variables that were set on previous page
-            echo "Subtotal is " . $_SESSION["subtotal"]; ?>
+                    echo "You have successfully purchased:" . $_SESSION["item"]; ?>
             <br/>
-           <?php echo "VAT is " . $_SESSION["VAT"]; ?>
+            <?php echo "Subtotal: &euro;". $_SESSION["subtotal"]; ?>
             <br/>
-           <?php echo "Discount is " . $_SESSION["discount"]; ?>
+           <?php echo "VAT: &euro;". $_SESSION["VAT"]; ?>
             <br/>
-            <?php echo "Total is " . $_SESSION["total"] . "."; ?>
+           <?php echo "Discount: &euro; ". $_SESSION["discount"]; ?>
+            <br/>
+            <?php echo "Total: &euro;". $_SESSION["total"] . "."; ?>
+            `
+            <br/>
+            <br/>
+            <button onclick="printReceipt()">Print receipt</button>
+
+            <script>
+            function printReceipt() {
+            window.print();
+            }
+            </script>
+
          </div> 
          </div>
          </div>
     </body>
     
-      <footer>
-        <a href="https://ucc.ie">
+      <footer align="center">
+        <a id="f1" href="https://ucc.ie">
             <img src="uccLogo.png"/>
         </a>
-        <a id="cubs" href="https://www.cubsucc.com/">
+        <p id="f2">Copyright &copy; Caoimhe McCarthy, 2018</p>
+        <a id="f3" href="https://www.cubsucc.com/">
             <img src="cubsLogo.png"/>
         </a>
     </footer>

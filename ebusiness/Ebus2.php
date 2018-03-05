@@ -112,11 +112,12 @@ session_start();
         $_SESSION["VAT"] = $_POST["VAT"];
         $_SESSION["discount"] = $_POST["discount"];
         $_SESSION["total"] = $_POST["total"];
+        $_SESSION["item"] = $_POST["item"]
         ?>
     </div>
     </div>
     </body>
-      <footer>
+      <footer align="center">
         <a href="https://ucc.ie">
             <img src="uccLogo.png"/>
         </a>
