@@ -69,8 +69,8 @@ session_start();
        </div>
         <div class="pagecontent">
         <div id="translate">
+            
         <h4>Please enter your payment details.</h4>
-        
             <form method = "POST" action = "Ebus3.php">
                 
                 <label for="user_pin">
