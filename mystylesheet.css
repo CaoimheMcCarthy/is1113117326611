@@ -11,23 +11,11 @@
 .navbar{
     background:url("background.gif");
     width: 100%;
-   
     text-align: center;
-    margin: 0;
-    padding: 0;
+    margin-top: 0;
+    padding-top: 0;
     
 }
-
-       
-#github, #heroku{
-    height: 200px;
-    width: 200px;
-    padding: 10px;
-    margin-left: 50%;
-}
-
-
-
 
 .btn{
     background-color: grey;
@@ -90,9 +78,7 @@ body{
     font-family: "Roboto", sans-serif;
 }
 
-.pagecontent{
-    padding-top: 200px;
-}
+
 
 footer{
     background-color: grey;

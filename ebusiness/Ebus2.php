@@ -19,7 +19,6 @@ session_start();
        <style>
            
            .pagecontent{
-               padding-top: 200px;
                text-align: center;
            }
            
@@ -69,8 +68,8 @@ session_start();
        </div>
         <div class="pagecontent">
         <div id="translate">
-            
         <h4>Please enter your payment details.</h4>
+        
             <form method = "POST" action = "Ebus3.php">
                 
                 <label for="user_pin">
@@ -118,10 +117,11 @@ session_start();
     </div>
     </body>
       <footer align="center">
-        <a href="https://ucc.ie">
+        <a id="f1" href="https://ucc.ie">
             <img src="uccLogo.png"/>
         </a>
-        <a id="cubs" href="https://www.cubsucc.com/">
+        <p id="f2">Copyright &copy; Caoimhe McCarthy, 2018</p>
+        <a id="f3" href="https://www.cubsucc.com/">
             <img src="cubsLogo.png"/>
         </a>
     </footer>

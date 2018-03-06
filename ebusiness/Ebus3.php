@@ -10,14 +10,7 @@ session_start();
         
         <title>Receipt</title>
         
-        <link rel="stylesheet" href="ebus_pages.css" type="text/css"/>
-         <link rel="stylesheet" href="../mystylesheet.css" type="text/css" />
-        
-        <style>
-            .pagecontent{
-                padding-top: 220px;
-            }
-        </style>
+        <link rel="stylesheet" href="../mystylesheet.css" type="text/css"/>
         
     </head>
     <body>
@@ -62,7 +55,7 @@ session_start();
        </div>
         <div class="pagecontent">
         <div id="translate">
-        <div id="receipt">
+        <div id="receipt" style="text-align:center">
             <h4>Receipt</h4>
          
             <?php
@@ -71,9 +64,9 @@ session_start();
             <br/>
             <?php echo "Subtotal: &euro;". $_SESSION["subtotal"]; ?>
             <br/>
-           <?php echo "VAT: &euro;". $_SESSION["VAT"]; ?>
+           <?php echo "Discount: &euro;". $_SESSION["discount"]; ?>
             <br/>
-           <?php echo "Discount: &euro; ". $_SESSION["discount"]; ?>
+           <?php echo "VAT: &euro; ". $_SESSION["VAT"]; ?>
             <br/>
             <?php echo "Total: &euro;". $_SESSION["total"] . "."; ?>
             `

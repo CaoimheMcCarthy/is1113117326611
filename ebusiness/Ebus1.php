@@ -11,7 +11,6 @@ session_start();
         <title>Select Product</title>
         
          <link rel="stylesheet" href="../mystylesheet.css" type="text/css" />
-         <link rel="stylesheet" href="ebus_pages.css" type="text/css"/>
         
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -19,7 +18,7 @@ session_start();
   
 <style>
     .pagecontent{
-        padding-top: 200px;
+       
        margin-left: 40%;
     }
     
@@ -77,7 +76,7 @@ session_start();
             
             <label for="salesforce">
                 <input type ="radio" id="salesforce" name="product" checked onClick="disablebtnProceed()"/>
-              <img src="https://c1.sfdcstatic.com/content/dam/web/en_is/www/images/logo/logo-company.png"/>  SalesForce @ &euro;100
+              <img src="salesforce.png"/>  SalesForce @ &euro;100
             </label>
             
             <br/>
