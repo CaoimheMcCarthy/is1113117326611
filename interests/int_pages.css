@@ -19,3 +19,12 @@
     text-align: center;
     color: white;
 }
+
+.mainheading{
+        padding: 0px;
+        margin: 0px;
+}
+
+#section1sport{
+    background-image: url("http://freedesignfile.com/upload/2013/01/Sports-elements-paper-3.jpg");
+}

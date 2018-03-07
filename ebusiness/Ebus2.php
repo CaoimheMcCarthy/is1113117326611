@@ -40,6 +40,8 @@ session_start();
         <h1 class="mainheading">IS1113 Project: 117326611</h1>
         <br/>
         <br/>
+        <div id="navbtns">
+            <a href="../homepage.html" class="btn">Home</a>
           <div class="dropdown">
         <a href="../cv/cv_page1.html" class="btn">Curriculum Vitae</a>
         <br/>
@@ -55,8 +57,7 @@ session_start();
         <a href="../interests/sports.html" class="btn">Interests</a>
         <br/>
          <div class="dropdown-content">
-            <a href="../interests/sports.html.html">Sports</a>
-            <a href="../interests/music.html">Music</a>
+            <a href="../interests/sports.html">Sports</a>
             <a href="../interests/travel.html">Travel</a>
             <a href="../interests/cloudservices.html">Cloud Services</a>
         </div>
@@ -65,6 +66,7 @@ session_start();
       	   
         	    
     <a href="ebushomepage.html" class="btn">E-Business</a>
+       </div>
        </div>
         <div class="pagecontent">
         <div id="translate">

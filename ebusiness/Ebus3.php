@@ -11,7 +11,7 @@ session_start();
         <title>Receipt</title>
         
         <link rel="stylesheet" href="../mystylesheet.css" type="text/css"/>
-        
+      
     </head>
     <body>
         
@@ -56,17 +56,21 @@ session_start();
         <div class="pagecontent">
         <div id="translate">
         <div id="receipt" style="text-align:center">
-            <h4>Receipt</h4>
+            <h2 style="background-color: grey; color: white">Cloud Services Receipt</h2>
          
             <?php
             //Echo session variables that were set on previous page
-                    echo "You have successfully purchased:" . $_SESSION["item"]; ?>
+            echo "You have successfully purchased:" . $_SESSION["item"]; ?>
+            <br/>
             <br/>
             <?php echo "Subtotal: &euro;". $_SESSION["subtotal"]; ?>
             <br/>
+            <br/>
            <?php echo "Discount: &euro;". $_SESSION["discount"]; ?>
             <br/>
+            <br/>
            <?php echo "VAT: &euro; ". $_SESSION["VAT"]; ?>
+            <br/>
             <br/>
             <?php echo "Total: &euro;". $_SESSION["total"] . "."; ?>
             `
