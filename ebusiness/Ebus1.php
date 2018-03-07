@@ -27,6 +27,10 @@ session_start();
         width: auto
     }
     
+    .navbar{
+       padding-top:0;
+    }
+    
 </style>  
   
     </head>
@@ -76,28 +80,28 @@ session_start();
             
             <label for="salesforce">
                 <input type ="radio" id="salesforce" name="product" checked onClick="disablebtnProceed()"/>
-              <img src="salesforce.png"/>  SalesForce @ &euro;100
+              <img src="../images/salesforce.png"/>  SalesForce @ &euro;100
             </label>
             
             <br/>
             
             <label for="aws">
                 <input type ="radio" id="aws" name="product" onClick="disablebtnProceed()"/>
-             <img src="aws.png"/>   AWS @ &euro;300 
+             <img src="../images/aws.png"/>   AWS @ &euro;300 
             </label>
             
             <br/>
             
             <label for="gmail">
                 <input type ="radio" id="gmail" name="product" onClick="disablebtnProceed()"/>
-               <img src="gmail.png"/> Gmail @ &euro;400
+               <img src="../images/gmail.png"/> Gmail @ &euro;400
             </label>
             
             <br/>
             
             <label for="cloud9">
                 <input type="radio" id="cloud9" name="product" onClick="disablebtnProceed()"/>
-               <img src="cloud9.png"/> Cloud 9 @ &euro;200
+               <img src="../images/cloud9.png"/> Cloud 9 @ &euro;200
             </label>
             
             <br/>
@@ -162,11 +166,11 @@ session_start();
     
     <footer align="center">
         <a id="f1" href="https://ucc.ie">
-            <img src="uccLogo.png"/>
+            <img src="../images/uccLogo.png"/>
         </a>
         <p id="f2">Copyright &copy; Caoimhe McCarthy, 2018</p>
         <a id="f3" href="https://www.cubsucc.com/">
-            <img src="cubsLogo.png"/>
+            <img src="../images/cubsLogo.png"/>
         </a>
     </footer>
     

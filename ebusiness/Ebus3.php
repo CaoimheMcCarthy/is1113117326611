@@ -91,11 +91,11 @@ session_start();
     
       <footer align="center">
         <a id="f1" href="https://ucc.ie">
-            <img src="uccLogo.png"/>
+            <img src="../images/uccLogo.png"/>
         </a>
         <p id="f2">Copyright &copy; Caoimhe McCarthy, 2018</p>
         <a id="f3" href="https://www.cubsucc.com/">
-            <img src="cubsLogo.png"/>
+            <img src="../images/cubsLogo.png"/>
         </a>
     </footer>
     
