@@ -7,7 +7,6 @@
         <title>E-Business</title>
         
         <link rel="stylesheet" href="../mystylesheet.css" type="text/css"/>
-        <link rel="stylesheet" href="ebus_pages.css" type="text/css"/>
         
        <style>
        
@@ -27,12 +26,16 @@
         }
         
         .title{
-             background:url("../images/background.gif");
-             color: white;
+             background-color:#A0EEF2;
+             color: grey;
         }
         
         a{
             color: grey;
+        }
+        
+        #saas, #paas, #iaas, #caas{
+            display: none;
         }
       
         
@@ -82,36 +85,39 @@
     </div>
     <div class="pagecontent">
     <div id="translate">
-        
-        <p>Cloud services is a broad category that 
-        encompasses a myriad of IT resources that are provided over the internet. Our offerings include: </p>
+        <img src="../images/cloudlogo.png" alt="Cloud Logo" style="align:center; height:300px;width:auto;">
+        <p>Established in 2018, we are a Cloud Services vendor set up by students of university College Cork with a deep
+        interest in the area of IT and the emerging importance of cloud-based products.Cloud services is a broad category that
+        encompasses a myriad of IT resources that are provided over the internet. Click below to find more about what we have to offer: </p>
         
         <div id="cloudoptions">
         <ol type="I">
-            <li><a href="#saas">Software as a Service</a></li>
-            <li><a href="#paas">Platform as a Service</a></li>
-            <li><a href="#iaas">Infrastructure as a Service</a></li>  
-            <li><a href="#caas">Communication as a Service</a></li>
+            <li><a href="#saas" class="show" onClick="show1()">Software as a Service</a></li>
+            <li><a href="#paas" class="show" onClick="show2()">Platform as a Service</a></li>
+            <li><a href="#iaas" class="show" onClick="show3()">Infrastructure as a Service</a></li>  
+            <li><a href="#caas" class="show" onClick="show4()">Communication as a Service</a></li>
         </ol>
         </div>
       
         <div id="saas">
             <div class="title">
-            <h2>Software as a Service</h2>
+            <h2>I. Software as a Service</h2>
             </div>
             <p>Software as a Service (SaaS) is a software distribution model in which applications are hosted by a vendor  
             and made available to customers over a network, usually the internet as we are using. 
             It differs from traditional software in the that it is not purchased and loaded onto a device, rather
             SaaS operates as a subscription service, to which customers can pay a periodical fee while they require the service,
             and simply cancel it when the software becomes redundant to them.</p>
-            <p><strong>An example of Software as a Service is <a href="https://www.salesforce.com/eu/?ir=1">Salesforce</a></strong></p>
+            <p><strong>An example of Software as a Service is <a href="https://www.salesforce.com/eu/?ir=1">Salesforce</a></strong>, the world’s #1 Customer 
+            Relationship Management (CRM) platform, comprising of cloud-based applications for sales, service and marketing.</p>
             <a role="button" class="btn" href="Ebus1.php">Purchase Salesforce</a>
         </div>
         
         <br/>
         
         <div id="paas">
-            <div class="title"><h2>Platform as a Service</h2></div>
+            <div class="title">
+            <h2>II. Platform as a Service</h2></div>
             <p>Platform as a service (PaaS) is a cloud computing model in which we as the third-party provider deliver hardware and software tools
             for application development to users by means of the internet. As a PaaS provider we host the hardware and 
             software on our own infrastructure. As a result, PaaS frees users from having to install in-house hardware and software to develop or 
@@ -123,17 +129,20 @@
             framework and the HTTP server</p>
             <h4>The Deployment Machinery: </h4><p>This instantiates virtual servers and provisions them with instances of the stack and the application code. The machinery
             itself is also code that runs once the deploy command has been enabled and stops once the application is up and fully functional.</p>
-            <h4>User Interface: </h4><p></p>
-            <p><strong>An example of a Platform as a Service is <a href="https://c9.io/login">Cloud 9</a></strong></p>
+            <h4>User Interface:</h4><p>This is the Graphical User Interface with which the user interacts with during development. We provide platforms with optimal usability and learnability 
+            in order to facilitate our users to develop on our platforms easily and quickly.</p>
+            <p><strong>An example of a Platform as a Service is <a href="https://c9.io/login">Cloud 9</a></strong>, a cloud-based integrated development environment (IDE) that lets 
+            you write, run, and debug your code with just a browser.</p>
             <a role="button" class="btn" href="Ebus1.php">Purchase Cloud 9</a>
         </div>
         
         <br/>
         
         <div id="iaas">
-            <div class="title"><h2>Infrastructure as a Service</h2></div>
+            <div class="title">
+            <h2>III. Infrastructure as a Service</h2></div>
             <p>Infrastructure as a Service (IaaS) involves the provision of virtualised computing resources over the internet. We, as the cloud provider, fill the position of the traditional
-            on-site data centre, providing servers, storage and networking hardware. The use of IaaS brings great cost benefits for a business as it eliminates the burden of buying,
+            on-site data centre, providing servers, storage and networking hardware. The use of IaaS brings great cost benefits for a business and individuals as it eliminates the burden of buying,
             managing and supporting the infrastructure themselves.</p>
             <p><strong>An example of Infrastructure as a Service is <a href="https://aws.amazon.com/">Amazon Web Services</a></strong></p>
             <a role="button" class="btn" href="Ebus1.php">Purchase Amazon Web Services</a>
@@ -142,7 +151,8 @@
         <br/>
         
         <div id="caas">
-            <div class="title"><h2>Communication as a Service</h2></div>
+            <div class="title">
+            <h2>IV. Communication as a Service</h2></div>
             <p>Communication as a Service (CaaS) is a means of outsourcing enterprise communications, that can be leased in it's entirety from us as the vendor.
             Our CaaS includes resources such as Voice over IP, Instant Messaging, and video-conferencing applications.
             CaaS offers flexibility and expandability that small and medium-sized business might not otherwise afford, allowing for the addition of devices, 
@@ -151,6 +161,31 @@
             <p><strong>An example of Communication as a Service is <a href="https://www.google.com/gmail/">Gmail</a></strong></p>
             <a role="button" class="btn" href="Ebus1.php">Purchase Gmail</a>
         </div>
+        
+        <!--Javascript functions to display information as it's selected-->
+        <script>
+        function show1() {
+        document.getElementById("saas").style.display = "block";
+        }
+        </script>
+        
+          <script>
+        function show2() {
+        document.getElementById("paas").style.display = "block";
+        }
+        </script>
+        
+          <script>
+        function show3() {
+        document.getElementById("iaas").style.display = "block";
+        }
+        </script>
+        
+          <script>
+        function show4() {
+        document.getElementById("caas").style.display = "block";
+        }
+        </script>
         
     </div>
     </div>
@@ -166,7 +201,5 @@
     </footer>
     
     </body>
-    
-  
     
 </html>
