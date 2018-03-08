@@ -104,10 +104,7 @@ session_start();
 
          </div> 
          </div>
-         </div>
-    </body>
-    
-      <footer align="center">
+         <footer align="center">
         <a id="f1" href="https://ucc.ie">
             <img src="../images/uccLogo.png" alt="UCC">
         </a>
@@ -116,5 +113,8 @@ session_start();
             <img src="../images/cubsLogo.png" alt="CUBS">
         </a>
     </footer>
+    </div>
+    </body>
     
+      
 </html>

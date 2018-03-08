@@ -14,7 +14,7 @@ session_start();
         
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script type="text/javascript" src="cost_calc.js"></script>
+        <script src="cost_calc.js"></script>
   
 <style>
     .pagecontent{
@@ -37,9 +37,9 @@ session_start();
     
     <body>
         
-     <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+     <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
     
-    <script type="text/javascript">
+    <script>
     function googleTranslateElementInit() {
     new google.translate.TranslateElement({pageLanguage: 'en'}, 'translate');
     }
@@ -80,28 +80,28 @@ session_start();
             
             <label for="salesforce">
                 <input type ="radio" id="salesforce" name="product" checked onClick="disablebtnProceed()"/>
-              <img src="../images/salesforce.png"/>  SalesForce @ &euro;100
+              <img src="../images/salesforce.png" alt="Salesforce">  SalesForce @ &euro;100
             </label>
             
             <br/>
             
             <label for="aws">
                 <input type ="radio" id="aws" name="product" onClick="disablebtnProceed()"/>
-             <img src="../images/aws.png"/>   AWS @ &euro;300 
+             <img src="../images/aws.png" alt="Amazon Web Services">   AWS @ &euro;300 
             </label>
             
             <br/>
             
             <label for="gmail">
                 <input type ="radio" id="gmail" name="product" onClick="disablebtnProceed()"/>
-               <img src="../images/gmail.png"/> Gmail @ &euro;400
+               <img src="../images/gmail.png" alt="Gmail"> Gmail @ &euro;400
             </label>
             
             <br/>
             
             <label for="cloud9">
                 <input type="radio" id="cloud9" name="product" onClick="disablebtnProceed()"/>
-               <img src="../images/cloud9.png"/> Cloud 9 @ &euro;200
+               <img src="../images/cloud9.png" alt="Cloud 9"> Cloud 9 @ &euro;200
             </label>
             
             <br/>
@@ -161,17 +161,14 @@ session_start();
       </div>
       <br/>
       <br/>
-      
-    </body>
-    
-    <footer align="center">
+      <footer align="center">
         <a id="f1" href="https://ucc.ie">
-            <img src="../images/uccLogo.png"/>
+            <img src="../images/uccLogo.png" alt="UCC">
         </a>
         <p id="f2">Copyright &copy; Caoimhe McCarthy, 2018</p>
         <a id="f3" href="https://www.cubsucc.com/">
-            <img src="../images/cubsLogo.png"/>
+            <img src="../images/cubsLogo.png" alt="CUBS">
         </a>
     </footer>
-    
+    </body>
 </html>
