@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
        
        <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,7 +10,6 @@
         
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
     
        <style>
            .btn{
@@ -29,8 +28,8 @@
     </head>
     <body>
         
-    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-    <script type="text/javascript">
+    <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script>
     function googleTranslateElementInit() {
     new google.translate.TranslateElement({pageLanguage: 'en'}, 'translate');
     }
@@ -42,7 +41,7 @@
        
     <br/>
     <br/>
-    <div id="navbtns">
+    <div class="navbtns">
     <a href="homepage.html" class="btn">Home</a>
     <div class="dropdown">
         <a href="cv/cv_page1.html" class="btn">Curriculum Vitae</a>
@@ -81,7 +80,7 @@ document.getElementById("welcome").innerHTML = d;
 
    <div class="container">
     <a href="https://is1113117326611.herokuapp.com/">
-        <img id="heroku" src="../images/heroku.png"/>
+        <img alt="heroku" id="heroku" src="../images/heroku.png">
         <div class="middle">
             <div class="text">View my Heroku</div>
         </div>
@@ -92,7 +91,7 @@ document.getElementById("welcome").innerHTML = d;
    
     <div class="container">
     <a href="https://github.com/CaoimheMcCarthy/is1113117326611/graphs/commit-activity">
-        <img id="github" src="../images/github.png"/>
+        <img alt="github" id="github" src="../images/github.png"/>
         <div class="middle">
             <div class="text">View my Github commits</div>
         </div>
@@ -101,16 +100,16 @@ document.getElementById("welcome").innerHTML = d;
        </div> 
    <br/>
    <br/>
-  </div>
-</body>
-    <footer align="center">
+   <footer align="center">
         <a id="f1" href="https://ucc.ie">
-            <img src="../images/uccLogo.png"/>
+            <img src="../images/uccLogo.png" alt="UCC">
         </a>
         <p id="f2">Copyright &copy; Caoimhe McCarthy, 2018</p>
         <a id="f3" href="https://www.cubsucc.com/">
-            <img src="../images/cubsLogo.png"/>
+            <img src="../images/cubsLogo.png" alt="CUBS">
         </a>
     </footer>
+</body>
+    
     
 </html>

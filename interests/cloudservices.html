@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
     <title>Cloud Services</title>
      <link rel="stylesheet" href="../mystylesheet.css" type="text/css"/>
@@ -9,24 +9,23 @@
         
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
         
     <!--pagepiling-->
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.4/jquery.pagepiling.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.4/jquery.pagepiling.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.4/jquery.pagepiling.js"></script>
         
-        <script type = "text/javascript">
+        <script>
              $(document).ready(function() {
                 $('#pagepiling').pagepiling({
                 });
              });
         </script>
         
-        <style type="text/css">
+        <style>
             .btn{
-                 background-color: grey;
-                color: white;
+               background-color: grey;
+               color: white;
                display: inline-block;
                padding: 10px;
             }
@@ -37,7 +36,34 @@
             }
             
             a {
+                color: grey;
+            }
+            #section1cloud{
+                height: 100%;
+                background-color: white;
+                background-image: linear-gradient(white, #A0EEF2);
+                color: grey;
+                font-size: 20px;
+            }
+            p{
+                margin-left: 40px;
+                margin-right: 40px;
+            }
+            
+            #section2cloud{
+                height: 100%;
+                background-color: white;
+                background-image: linear-gradient(#A0EEF2, rgb(51,153,204));
                 color: white;
+                font-size: 20px;
+            }
+            
+            #section3cloud{
+                height: 100%;
+                background-color: white;
+                background-image: linear-gradient(rgb(51,153,204), rgb(44,62,80));
+                color: white;
+                font-size: 20px;
             }
           
         </style>
@@ -46,7 +72,7 @@
  
     <body>   
     <div id="pagepiling">
-    <div class="section" id="section1">
+    <div class="section" id="section1cloud">
                 
     <div class="navbar">
     <h1 class="mainheading">IS1113 Project: 117326611</h1>
@@ -67,7 +93,7 @@
         <a href="sports.html" class="btn">Interests</a>
         <br/>
          <div class="dropdown-content">
-            <a href="sports.html">Sports</a>
+            <a href="sports.html">Sports/Music</a>
             <a href="travel.html">Travel</a>
             <a href="cloudservices.html">Cloud Services</a>
         </div>
@@ -83,25 +109,31 @@
         <h2>Cloud Services</h2>
         <p>The term 'cloud services' encapsulates a broad range of web-based technologies that can take the place
         of traditional methods in terms of storage, development enviroments and software. The primary types of Cloud Services
-        are <a href="ebushomepage.html">Software as a Service</a>, <a href="ebushomepage.html">Platform as a Service</a>, 
-        <a href="ebushomepage.html">Infrastructure as a Service</a> and <a href="ebushomepage.html">Communication as a Platform.</a></p>
+        are <a href="../ebusiness/ebushomepage.html">Software as a Service</a>, <a href="../ebusiness/ebushomepage.html">Platform as a Service</a>, 
+        <a href="../ebusiness/ebushomepage.html">Infrastructure as a Service</a> and <a href="../ebusiness/ebushomepage.html">Communication as a Platform.</a>
+        The use of the term 'cloud' to describe these virtualised IT resources came about as cloud was used as a metaphor for the Internet
+        and a standardised cloud-like shape was used to denote a network on telephony schematics.</p>
+        <p>Cloud services have been used to make this project almost in it's entirety, as I used Cloud 9, a Platform as a Service, to develop my site along with
+        Github, an example of Software as a Service to host my project, and finally Heroku, another Platform as a Service to deploy my website. This is in place of 
+        the more traditional method of writing code in a downloadable program such as Notepad and storing the files locally. Our use of several cloud services as part of this
+        project has greatly strengthened my interest in the topic andit has also highlighted their growing importance and use in development.</p>
                 
         <footer align="center">
         <a id="f1" href="https://ucc.ie">
-            <img src="../images/uccLogo.png"/>
+            <img src="../images/uccLogo.png" alt="UCC">
         </a>
         <p id="f2" style="font-size:15px">Copyright &copy; Caoimhe McCarthy, 2018</p>
         <a id="f3" href="https://www.cubsucc.com/">
-            <img src="../images/cubsLogo.png"/>
+            <img src="../images/cubsLogo.png" alt="CUBS">
         </a>
         </footer>
         </div>
             
-    <div class="section" id="section2">
+    <div class="section" id="section2cloud">
         	    
     <div class="navbar">
     <h1 class="mainheading">IS1113 Project: 117326611</h1>
-    <div id="navbtns">
+    <div class="navbtns">
     <a href="../homepage.html" class="btn">Home</a>
     <div class="dropdown">
         <a href="../cv/cv_page1.html" class="btn">Curriculum Vitae</a>
@@ -118,7 +150,7 @@
         <a href="sports.html" class="btn">Interests</a>
         <br/>
          <div class="dropdown-content">
-            <a href="sports.html.html">Sports</a>
+            <a href="sports.html">Sports/Music</a>
             <a href="travel.html">Travel</a>
             <a href="cloudservices.html">Cloud Services</a>
         </div>
@@ -132,24 +164,26 @@
     </div> 
         	    
     <h2>Why use Cloud Services</h2>
-    <p></p>
+    <p>Using cloud services provides many benefits in terms of cost, time efficiency, maintenance and security. The method of payment
+    for a cloud service is pay-per-use, meaning the user only has to pay when they actually want to utilise the service. Also, as the user does not
+    actually purchase the infrastrucure, the maintenance of it and the cost associated with this is solely the responsibilty of the vendor.</p>
         	  
     <footer align="center">
     <a id="f1" href="https://ucc.ie">
-        <img src="../images/uccLogo.png"/>
+        <img src="../images/uccLogo.png" alt="UCC">
     </a>
     <p id="f2" style="font-size:15px">Copyright &copy; Caoimhe McCarthy, 2018</p>
     <a id="f3" href="https://www.cubsucc.com/">
-        <img src="../images/cubsLogo.png"/>
+        <img src="../images/cubsLogo.png" alt="CUBS">
     </a>
     </footer>
         	  
     </div>
-    <div class="section" id="section3">
+    <div class="section" id="section3cloud">
         	    
     <div class="navbar">
         <h1 class="mainheading">IS1113 Project: 117326611</h1>
-     <div id="navbtns">
+     <div class="navbtns">
         <a href="../homepage.html" class="btn">Home</a>
     <div class="dropdown">
         <a href="../cv/cv_page1.html" class="btn">Curriculum Vitae</a>
@@ -166,8 +200,7 @@
         <a href="sports.html" class="btn">Interests</a>
         <br/>
          <div class="dropdown-content">
-            <a href="sports.html.html">Sports</a>
-            <a href="music.html">Music</a>
+            <a href="sports.html">Sports/Music</a>
             <a href="travel.html">Travel</a>
             <a href="cloudservices.html">Cloud Services</a>
         </div>
@@ -181,18 +214,23 @@
     </div>
         	    
         <h2>Future Innovations in Cloud Services</h2>
-        	 <p></p>
+        	 <p><strong>Mobile Backend as a Service (MBaaS):</strong> A cloud service is is quickly becoming mainstream in industry,
+        	 MBaaS provides web and application developers with a means of connecting their apps to backend cloud storage, along with 
+        	 access to user management and social network integration services. Custom software development kits (SDKs) and application
+        	 programming interfaces (APIs) are used to provide MBaaS across nearly all mainstream platforms, such as iOS, Android and HTML5.
+        	 There is an ever-growing number of providers of mobile backend as a services, with notable companies doing so including 
+        	 <a href="https://azure.microsoft.com/en-us/solutions/mobile/">Microsoft Azure</a> and <a href="https://cloud.oracle.com/mobile">Oracle Cloud</a>.</p>
         	  <br/>
         	  <br/>
         <a href="../homepage.html" class="btn btn-success">Home</a>
         	    
     <footer align="center">
         <a id="f1" href="https://ucc.ie">
-            <img src="../images/uccLogo.png"/>
+            <img src="../images/uccLogo.png" alt="UCC">
         </a>
         <p id="f2" style="font-size:15px">Copyright &copy; Caoimhe McCarthy, 2018</p>
         <a id="f3" href="https://www.cubsucc.com/">
-            <img src="../images/cubsLogo.png"/>
+            <img src="../images/cubsLogo.png" alt="CUBS">
         </a>
     </footer>
     </div>

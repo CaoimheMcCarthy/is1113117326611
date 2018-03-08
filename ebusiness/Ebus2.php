@@ -4,7 +4,7 @@ session_start();
 ?>
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -28,9 +28,9 @@ session_start();
     
     <body>
         
-    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
     
-    <script type="text/javascript">
+    <script>
     function googleTranslateElementInit() {
     new google.translate.TranslateElement({pageLanguage: 'en'}, 'translate');
     }
@@ -40,7 +40,7 @@ session_start();
         <h1 class="mainheading">IS1113 Project: 117326611</h1>
         <br/>
         <br/>
-        <div id="navbtns">
+        <div class="navbtns">
             <a href="../homepage.html" class="btn">Home</a>
           <div class="dropdown">
         <a href="../cv/cv_page1.html" class="btn">Curriculum Vitae</a>
@@ -57,7 +57,7 @@ session_start();
         <a href="../interests/sports.html" class="btn">Interests</a>
         <br/>
          <div class="dropdown-content">
-            <a href="../interests/sports.html">Sports</a>
+            <a href="../interests/sports.html">Sports/Music</a>
             <a href="../interests/travel.html">Travel</a>
             <a href="../interests/cloudservices.html">Cloud Services</a>
         </div>
@@ -117,16 +117,15 @@ session_start();
         ?>
     </div>
     </div>
-    </body>
-      <footer align="center">
+    
+     <footer align="center">
         <a id="f1" href="https://ucc.ie">
-            <img src="../images/uccLogo.png"/>
+            <img src="../images/uccLogo.png" alt="UCC">
         </a>
         <p id="f2">Copyright &copy; Caoimhe McCarthy, 2018</p>
         <a id="f3" href="https://www.cubsucc.com/">
-            <img src="../images/cubsLogo.png"/>
+            <img src="../images/cubsLogo.png" alt="CUBS">
         </a>
     </footer>
-    
-    
+    </body>
 </html>

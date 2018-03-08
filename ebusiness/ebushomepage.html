@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        
+        <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         <title>E-Business</title>
@@ -30,6 +30,10 @@
              background:url("../images/background.gif");
              color: white;
         }
+        
+        a{
+            color: grey;
+        }
       
         
  </style>       
@@ -37,8 +41,8 @@
     <body>
     
     <!--Enables pages to be translated-->    
-    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-    <script type="text/javascript">
+    <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script>
     function googleTranslateElementInit() {
     new google.translate.TranslateElement({pageLanguage: 'en'}, 'translate');
     }
@@ -48,7 +52,7 @@
         <h1 class="mainheading">IS1113 Project: 117326611</h1>
         <br/>
         <br/>
-        <div id="navbtns">
+        <div class="navbtns">
             <a href="../homepage.html" class="btn">Home</a>
           <div class="dropdown">
         <a href="../cv/cv_page1.html" class="btn">Curriculum Vitae</a>
@@ -65,8 +69,7 @@
         <a href="../interests/sports.html" class="btn">Interests</a>
         <br/>
          <div class="dropdown-content">
-            <a href="../interests/sports.html">Sports</a>
-            <a href="../interests/music.html">Music</a>
+            <a href="../interests/sports.html">Sports/Music</a>
             <a href="../interests/travel.html">Travel</a>
             <a href="../interests/cloudservices.html">Cloud Services</a>
         </div>
@@ -89,8 +92,8 @@
             <li><a href="#paas">Platform as a Service</a></li>
             <li><a href="#iaas">Infrastructure as a Service</a></li>  
             <li><a href="#caas">Communication as a Service</a></li>
-        </div>
         </ol>
+        </div>
       
         <div id="saas">
             <div class="title">
@@ -133,7 +136,7 @@
             on-site data centre, providing servers, storage and networking hardware. The use of IaaS brings great cost benefits for a business as it eliminates the burden of buying,
             managing and supporting the infrastructure themselves.</p>
             <p><strong>An example of Infrastructure as a Service is <a href="https://aws.amazon.com/">Amazon Web Services</a></strong></p>
-            <a role="button" class="btn"href="Ebus1.php">Purchase Amazon Web Services</a>
+            <a role="button" class="btn" href="Ebus1.php">Purchase Amazon Web Services</a>
         </div>
         
         <br/>
@@ -152,21 +155,18 @@
     </div>
     </div>
     
+      <footer align="center">
+        <a id="f1" href="https://ucc.ie">
+            <img src="../images/uccLogo.png" alt="UCC">
+        </a>
+         <p id="f2">Copyright &copy; Caoimhe McCarthy, 2018</p>
+        <a id="f3" href="https://www.cubsucc.com/">
+            <img src="../images/cubsLogo.png" alt="CUBS">
+        </a>
+    </footer>
+    
     </body>
     
-    <footer align="center">
-      
-        <a id="f1" href="https://ucc.ie">
-            <img src="../images/uccLogo.png"/>
-        </a>
-        
-         <p id="f2">Copyright &copy; Caoimhe McCarthy, 2018</p>
-        
-        <a id="f3" href="https://www.cubsucc.com/">
-            <img src="../images/cubsLogo.png"/>
-        </a>
-      
-        
-    </footer>
+  
     
 </html>

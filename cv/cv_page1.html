@@ -1,12 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
       
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       
         <title>Personal Details</title>
         <link rel="stylesheet" href="../mystylesheet.css" type="text/css" />
-        <link rel="stylesheet" href="cv_pages.css" type="text/css"/>
         
         <!--Bootstrap template obtained from W3 Schools which I altered to suit my design and content-->
         
@@ -21,15 +20,14 @@
             font-family: "Roboto", sans-serif;
             overflow: auto;
         }
-       
         </style>
        
     </head>
-    <header>
-        
-    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <body class="w3-light-grey">   
+    <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
     
-    <script type="text/javascript">
+    <!--Calling translate function-->
+    <script>
     function googleTranslateElementInit() {
     new google.translate.TranslateElement({pageLanguage: 'en'}, 'translate');
     }
@@ -39,7 +37,7 @@
         <h1 class="mainheading">IS1113 Project: 117326611</h1>
         <br/>
         <br/>
-        <div id="navbtns">
+        <div class="navbtns">
         <a href="../homepage.html" class="btn">Home</a>  
         <div class="dropdown">
         <a href="cv_page1.html" class="btn">Curriculum Vitae</a>
@@ -56,7 +54,7 @@
         <a href="../interests/sports.html" class="btn">Interests</a>
         <br/>
          <div class="dropdown-content">
-            <a href="../interests/sports.html">Sports</a>
+            <a href="../interests/sports.html">Sports/Music</a>
             <a href="../interests/travel.html">Travel</a>
             <a href="../interests/cloudservices.html">Cloud Services</a>
         </div>
@@ -71,7 +69,7 @@
        <div class="pagecontent">
        <br/>
     </header>
-    <body class="w3-light-grey">
+   
     <div id="translate">
 <div class="w3-content w3-margin-top" style="max-width:1400px;">
 
@@ -156,7 +154,8 @@
           <br>
         </div>
       </div>
-
+      
+      <!--Google Maps API to display map of Bantry-->
       <div class="w3-container w3-card w3-white">
          <div id="map" style="width:400px;height:400px" align="center">
             <script type="text/javascript">
@@ -178,7 +177,7 @@
     <br/>
     <br/>
       <a href="../homepage.html">Back to Home</a>
-      <a role="button" class="btn" id="cvbtn" href="cv_page2.html">Next</a>
+      <a role="button" class="btn" id="cvbtn" href="cv_page2.html" style="text-align:center">Next</a>
     
   <!-- End Grid -->
   </div>

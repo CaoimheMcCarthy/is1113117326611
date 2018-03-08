@@ -3,7 +3,7 @@
 session_start();
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -46,7 +46,7 @@ session_start();
     </script>
      <div class="navbar">
         <h1 class="mainheading">IS1113 Project: 117326611</h1>
-    <div id="navbtns">   
+    <div class="navbtns">   
     <a href="../homepage.html" class="btn">Home</a>
     <div class="dropdown">
         <a href="../cv/cv_page1.html" class="btn">Curriculum Vitae</a>
@@ -63,7 +63,7 @@ session_start();
         <a href="../interests/sports.html" class="btn">Interests</a>
         <br/>
          <div class="dropdown-content">
-            <a href="../interests/sports.html">Sports</a>
+            <a href="../interests/sports.html">Sports/Music</a>
             <a href="../interests/travel.html">Travel</a>
             <a href="../interests/cloudservices.html">Cloud Services</a>
         </div>
