@@ -70,7 +70,7 @@ session_start();
         <div class="pagecontent">
         <div id="translate">
         <div id="receipt" style="text-align:center">
-            <h2 style="background-color: grey; color: white">Cloud Services Receipt</h2>
+            <h2 style="background-color: grey; color: white">Cloud Computing Ltd. Sales Receipt</h2>
              
              
              <?php echo "Thank you" . $_POST["user_name"]; ?>
